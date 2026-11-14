@@ -5,8 +5,7 @@
   "private": true,
   "scripts": {
     "build": "tsc",
-    "start": "tsx src/app.ts",
-    "dev": "ts-node src/app.ts"
+    "dev": "tsx src/app.ts"
   },
   "devDependencies": {
     "@types/bun": "latest",
