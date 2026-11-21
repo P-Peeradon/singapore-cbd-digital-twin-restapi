@@ -16,8 +16,6 @@
         "@types/mysql": "^2.15.28",
         "@types/node": "^26.6.6",
         "tsx": "^4.23.15",
-      },
-      "peerDependencies": {
         "typescript": "^5",
       },
     },
