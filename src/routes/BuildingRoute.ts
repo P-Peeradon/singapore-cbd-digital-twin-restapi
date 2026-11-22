@@ -1,8 +1,8 @@
 import router from 'express';
-import { fetchAllBuildings } from '../models/BuildingModel';
+import { getBuildingsGeoJSON } from '../controllers/BuildingController.ts';
 
-const route = router();
+const buildingRoute = router();
 
-route.get("/buildings", fetchAllBuildings);
+buildingRoute.get("/buildings", getBuildingsGeoJSON);
 
-export default route;
+export default buildingRoute;
